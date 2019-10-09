@@ -4,4 +4,5 @@ gemspec
 group :test, :development do
   gem "rake"
   gem "rspec", "~> 3.9"
+  gem "standard"
 end

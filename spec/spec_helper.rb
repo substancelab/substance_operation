@@ -1,4 +1,4 @@
-require 'bundler/setup'
+require "bundler/setup"
 Bundler.setup
 
-require 'substance_operation'
+require "substance_operation"
