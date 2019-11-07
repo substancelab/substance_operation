@@ -1,4 +1,4 @@
-require 'substance_operation'
+require "substance_operation"
 require "spec_helper"
 
 RSpec.describe Substance::Operation do
@@ -63,9 +63,9 @@ RSpec.describe Substance::Operation do
       end
 
       it "runs the process code" do
-        expect { subject.process }.
-          to change { subject.success? }.
-          from(nil).to(true)
+        expect { subject.process }
+          .to change { subject.success? }
+          .from(nil).to(true)
       end
     end
   end
