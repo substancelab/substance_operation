@@ -12,7 +12,7 @@ Usage examples
 Create a class based on the Substance::Operation class, with its bespoke process method:
 
     class UserOperation < Substance::Operation
-      process(*)
+      def process(*)
         true
       end
     end
