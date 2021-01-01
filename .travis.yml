@@ -10,4 +10,4 @@ matrix:
 
 before_install:
   - gem update --system "2.7.10"
-  - gem install bundler -v "1.17.3"
+  - gem install bundler -v "2.1.4"
